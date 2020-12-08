@@ -10,6 +10,7 @@ namespace MVCProject.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Welcome to The Home Page ";
             return View();
         }
 
