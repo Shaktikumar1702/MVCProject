@@ -16,7 +16,7 @@ namespace MVCProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page hello git hub code.";
 
             return View();
         }
